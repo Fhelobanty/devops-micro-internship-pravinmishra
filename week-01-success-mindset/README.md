@@ -32,7 +32,8 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
-I believe people hide behind preparation instead of taking action. Many think they must feel ready, get certifications and learn everything before starting, especially in tech. I disagree completely. Real growth happens through doing, failing, and adapting. Waiting masks fear. Imperfect action consistently beats perfect planning and leads to faster, meaningful success.
+
+Add your answer here...
 
 ---
 
@@ -54,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-**Truth:** Consistent effort produces better results than short bursts of motivation.
+Add your answer here...
 
 ### Evidence from my life
 
-**Evidence from my life:** I tried relying on motivation to study and build projects, but I was inconsistent and made little progress. When I switched to doing small tasks daily, even when I didn’t feel like it, I completed more projects and improved faster. Then i was able to get rid of procrastination, consistency will give you what determination without step will give you.
+Add your answer here...
 
 ---
 
@@ -66,11 +67,11 @@ Write each truth in this format:
 
 ### Truth
 
-**Truth:** Practical experience teaches faster than passive learning.
+Add your answer here...
 
 ### Evidence from my life
 
-**Evidence from my life:** I spent time watching tutorials without building anything and retained very little. When I started doing hands-on projects, I understood concepts better and could apply them confidently.
+Add your answer here...
 
 ---
 
@@ -78,11 +79,11 @@ Write each truth in this format:
 
 ### Truth
 
-**Truth:** Clear goals increase productivity and focus.
+Add your answer here...
 
 ### Evidence from my life
 
-**Evidence from my life:** When I worked without defined goals, I wasted time and felt unproductive. After setting specific daily and weekly targets, I became more focused and achieved more measurable progress. By then i was able to build brick by brick and here we are DMI is another step forward.
+Add your answer here...
 
 ---
 
@@ -134,27 +135,11 @@ Include this line:
 
 ## Your Article
 
-## From History Lecture Halls to Production Infrastructure: The Rise of Micheal Atoyebi
-
-*Ilorin, Nigeria — The World*
-
-When Micheal Atoyebi walked out of Kwara State University in 2024 clutching a bachelor's degree in History, almost nobody around him would have guessed he'd spend the next few years wiring together cloud infrastructure for clients scattered across three continents. He didn't come up through a computer science department or a bootcamp with a famous name attached. He taught himself, one broken Docker container and one failed Terraform apply at a time.
-
-The turning point came quietly. While most of his coursemates chased NYSC postings and civil service exams, Atoyebi spent his evenings working through AWS documentation, setting up VLANs in Cisco Packet Tracer, and pushing half-finished projects to a GitHub account nobody was watching yet. He shipped his first real client project — a containerized deployment pipeline for a small e-commerce startup — through Fiverr in 2025, charging less than the work was worth just to build a track record. He didn't stop there.
-
-By 2027, Atoyebi had earned his AWS Solutions Architect Associate certification and landed a remote DevOps engineering role with a mid-sized logistics company, where he led the migration of their staging environment from manual server provisioning to a fully automated Terraform-and-Docker workflow, cutting deployment time from days to under an hour. He later contributed fixes and documentation to two open-source infrastructure tools, earning his first merged pull requests outside his own repositories.
-
-Outside the terminal, Atoyebi built something unusual: a comic series called Vault Vibes, breaking down DeFi concepts through the Concrete protocol for readers who found whitepapers unreadable. What started as weekly Twitter threads grew into a small but loyal following and eventually a short-form video spinoff. He also began mentoring newer freelancers on annotation platforms like Outlier and DataAnnotation, walking them through the same trial-and-error path he'd taken himself.
-
-By 2031, Atoyebi runs a lean two-person DevOps consultancy out of Ilorin, serving clients in the UK, Canada, and Nigeria, while still finding time to publish the occasional Vault Vibes panel. The History graduate who once studied empires now builds the infrastructure quieter revolutions run on.
-
----
-
-**P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+Add your answer here...
 
 ### Public Link
 
-https://medium.com/@fhelo3030/from-history-lecture-halls-to-production-infrastructure-the-rise-of-micheal-atoyebi-9e3a08966b14
+Paste your link here:
 
 `__________________________`
 
@@ -188,7 +173,7 @@ If Yes:
 
 ## Answer
 
-**No**
+Add your answer here...
 
 ---
 
@@ -214,55 +199,16 @@ Choose books that improve:
 
 ## Book List
 
-## 📚 Book List
-
-### 1. Essentialism — Greg McKeown  
-![Essentialism](screenshots/Essentialism.jpg)
-
----
-
-### 2. So Good They Can’t Ignore You — Cal Newport  
-![SoGood](screenshots/SoGood.jpg)
-
----
-
-### 3. The One Thing — Gary Keller  
-![Theone](screenshots/Theone.jpg)
-
----
-
-### 4. Grit — Angela Duckworth  
-![Grit](screenshots/Grit.jpg)
-
----
-
-### 5. Measure What Matters — John Doerr  
-![Measure](screenshots/Measure.jpg)
-
----
-
-### 6. The Psychology of Money — Morgan Housel  
-![ThePsychology](screenshots/ThePsychology.jpg)
-
----
-
-### 7. Thinking, Fast and Slow — Daniel Kahneman  
-![ThinkingFast](screenshots/ThinkingFast.jpg)
-
----
-
-### 8. Make Time — Jake Knapp & John Zeratsky  
-![MakeTime](screenshots/MakeTime.jpg)
-
----
-
-### 9. The Power of Now — Eckhart Tolle  
-![ThePower](screenshots/ThePower.jpg)
-
----
-
-### 10. Never Split the Difference — Chris Voss  
-![NeverSplit](screenshots/NeverSplit.jfif)
+1. Add your answer here...
+2. Add your answer here...
+3. Add your answer here...
+4. Add your answer here...
+5. Add your answer here...
+6. Add your answer here...
+7. Add your answer here...
+8. Add your answer here...
+9. Add your answer here...
+10. Add your answer here...
 
 ---
 
@@ -291,16 +237,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Skill depth gained from hands-on practice
-* Number of real-world problems solved
-* Energy levels throughout the day
-* Quality of focus during work sessions
-* Personal income growth and savings consistency
-* Completed projects with public proof (GitHub, portfolio)
-* Time spent on distractions vs productive work
-* Physical activity consistency (movement, workouts)
-* Sleep quality and recovery level
-* New concepts successfully applied in real tasks
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
+* Add your answer here...
 
 ---
 
@@ -326,7 +272,7 @@ Examples:
 
 Answer:
 
-**Yes**
+Add your answer here...
 
 ---
 
@@ -344,9 +290,7 @@ Example:
 
 #### My Weekly Routine
 
-Mon–Fri: 3–5 hours focused learning/building (DevOps + projects)
-Sat: DMI session + review what I learned
-Sun: Weekly reset (plan, reflect, organize tasks)
+Add your answer here...
 
 ---
 
@@ -354,11 +298,11 @@ Sun: Weekly reset (plan, reflect, organize tasks)
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Monday to Friday, 12:00 AM – 4:00 AM
+Add your answer here...
 
 #### How Many Sessions Per Week?
 
-5 sessions per week
+Add your answer here...
 
 ---
 
@@ -372,11 +316,7 @@ Examples:
 
 #### My Distraction Rules
 
-No social media during focus hours
-Phone stays away from my workspace while working
-Only use laptop for task-related work during sessions
-Set a clear task before starting each session
-Take short breaks only after completing a task
+Add your answer here...
 
 ---
 
@@ -384,28 +324,28 @@ Take short breaks only after completing a task
 
 ### Biggest insight I got about myself this week
 
-I realized I tend to overthink starting tasks, but once I begin, I actually make good progress.
+Add your answer here...
 
 ### My biggest weakness/loop I noticed
 
-I delay important work by spending too much time planning or consuming content instead of doing.
+Add your answer here...
 
 ### One system I will implement from this week (exact habit + time)
 
-Start working immediately at 12:00 AM every weekday without thinking twice, even if it’s just for 2hours.
+Add your answer here...
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`https://www.linkedin.com/posts/aamicheal_join-the-dmi-devops-micro-internship-share-7478634141383663616-TGH8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
+`__________________________`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/posts/aamicheal_join-the-dmi-devops-micro-internship-share-7478634141383663616-TGH8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA**  
-- Blog / Medium : **https://medium.com/@fhelo3030/from-history-lecture-halls-to-production-infrastructure-the-rise-of-micheal-atoyebi-9e3a08966b14**  
+- LinkedIn Post URL: **ADD LINK HERE**  
+- Blog / Medium : **ADD LINK HERE**  
 
 ---
 
