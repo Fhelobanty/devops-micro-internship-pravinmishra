@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![BlogSubmitted](screenshots/Live.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@fhelo3030/reflection-week-2-9aa2649058d7`
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![LinkedIn](screenshots/linkdln.png)
 
 ---
 
@@ -101,14 +101,34 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+🔥 Hands-on with Agentic AI — Building Real Infrastructure
+This week in my DevOps Micro Internship (DMI Cohort 3), I’ve started working directly with Agentic AI tools, and it’s been a powerful experience.
+From the screenshots below, I explored how AI agents can:
+ ✅ Scaffold Terraform infrastructure automatically
+ ✅ Configure AWS resources like S3 & CloudFront
+ ✅ Generate production-ready configurations with best practices
+ ✅ Assist in real-time development workflows
+What stood out to me is how tools like Claude Code (Haiku model) can:
+ 👉 Translate intent into working infrastructure
+ 👉 Reduce manual setup time significantly
+ 👉 Act as a “co-pilot” in DevOps engineering
+💡 Instead of just writing code, I’m now learning how to direct intelligent systems to build, validate, and optimize solutions — which is a core skill in the future of DevOps.
+
+ Key Takeaways
+✅Agentic AI is not just about prompts — it’s about systems thinking
+✅Automation is evolving from scripts → intelligent agents
+✅DevOps engineers now need to orchestrate AI, not just tools
+I’m excited to keep building, experimenting, and pushing my limits in this space.
+Big shout-out to our co-mentors Anjana Muthunayake , Bhupendra Bhati , Ranbir Kaur, Greg Odi for their supportive system created out of their tight schedule to make sure everyone are on track. And also Our leader Pravin Mishra for the opportunity.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/e7fbuHVK ).
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/aamicheal_hands-on-with-agentic-ai-building-real-ugcPost-7481107778762268673-ZZzn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
 
 ---
 
