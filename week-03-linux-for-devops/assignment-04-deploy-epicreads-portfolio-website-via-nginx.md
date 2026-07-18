@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-![La -la](screenshots/4Task1ss1.jpg)
+ ![La -la](screenshots/4Task1ss1.jpg)
 
 ---
 
@@ -82,14 +82,14 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![Curl ifconfig](screenshots/4Task4ss1.png)
+ ![Curl ifconfig](screenshots/4Task4ss1.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![Web Live View](screenshots/4Task4ss2.png)
-![Web Live View](screenshots/4Task4ss22.png)
+ ![Web Live View](screenshots/4Task4ss2.png)
+ ![Web Live View](screenshots/4Task4ss22.png)
 
 ---
 
@@ -103,13 +103,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![Systemctl](screenshots/4Task5ss1.png)
+ ![Systemctl](screenshots/4Task5ss1.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-![Curl -I](screenshots/4Task5ss2.png)
+ ![Curl -I](screenshots/4Task5ss2.png)
 
 ---
 
@@ -127,7 +127,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-![Post Screenshot](screenshots/4Task6ss.png)
+![Post Screenshot](screenshots/4Task6ss2.png)
 
 ---
 
