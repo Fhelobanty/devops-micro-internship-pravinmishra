@@ -20,19 +20,27 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is basically my personal access to use AWS cloud services like EC2, S3, and others. It allows user to create and manage resources in the cloud. At this stage, I need it so I can practice real DevOps tasks like launching servers and deploying projects instead of just learning theory.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is a way AWS allows beginners to use some of their services for free within certain limits. It helps me learn and experiment without spending money. The Free Tier benefits last for 184days approximately 6 months which start immediately after creating the account, with $100 credit benefit to use some resources withing budget. Breakdown accordin to what i saw on my Aws accounts includes Below.
+Launch an instance using EC2 $20
+Use a foundation model in the Amazon Bedrock playground $20
+Set up a cost budget using AWS Budgets $20
+Create a web app using AWS Lambda $20
+Create an Aurora or RDS database $20
+
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Launch an instance using EC2 $20
+Use a foundation model in the Amazon Bedrock playground $20
+Set up a cost budget using AWS Budgets $20
 
 ---
 
@@ -56,7 +64,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![AwsAccount](screenshots/AwsAccount.png)
 
 ---
 
