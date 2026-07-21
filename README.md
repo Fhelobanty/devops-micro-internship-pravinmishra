@@ -131,9 +131,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending |https://www.linkedin.com/posts/aamicheal_join-the-dmi-devops-micro-internship-share-7478634141383663616-TGH8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/from-history-lecture-halls-to-production-infrastructure-the-rise-of-micheal-atoyebi-9e3a08966b14 |
+| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending |https://www.linkedin.com/posts/aamicheal_hands-on-with-agentic-ai-building-real-ugcPost-7481107778762268673-ZZzn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA| https://medium.com/@fhelo3030/reflection-week-2-9aa2649058d7 |
+| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending |https://www.linkedin.com/posts/aamicheal_devops-linux-bashscripting-ugcPost-7484036731608973312-BPst/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA |https://medium.com/@fhelo3030/thinking-like-an-on-call-devops-engineer-my-linux-triage-experience-5be536d18241|
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
