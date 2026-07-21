@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Atoyebi Micheal|
+| **LinkedIn** | [Cloud Engineer](https://www.linkedin.com/in/aamicheal/) |
+| **Location** | Kwara State, Nigeria |
+| **Background** | Cloud, DevOps & AI Engineer |
+| **Goal** | Become Cloud & DevOps professional |
 
 ---
 
