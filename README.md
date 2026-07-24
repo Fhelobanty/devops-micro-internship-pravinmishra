@@ -134,7 +134,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 01 | Success Mindset | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_join-the-dmi-devops-micro-internship-share-7478634141383663616-TGH8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/from-history-lecture-halls-to-production-infrastructure-the-rise-of-micheal-atoyebi-9e3a08966b14 |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_hands-on-with-agentic-ai-building-real-ugcPost-7481107778762268673-ZZzn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA| https://medium.com/@fhelo3030/reflection-week-2-9aa2649058d7 |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_devops-linux-bashscripting-ugcPost-7484036731608973312-BPst/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA |https://medium.com/@fhelo3030/thinking-like-an-on-call-devops-engineer-my-linux-triage-experience-5be536d18241|
-| 04 | Git & GitHub | 🔄 In Progress | ⏳ Pending | — | — |
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aamicheal_devops-gitops-automation-share-7486426890057154560-g8GR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/why-i-added-a-second-layer-of-review-to-my-git-workflow-8c0fe43cb071 |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
