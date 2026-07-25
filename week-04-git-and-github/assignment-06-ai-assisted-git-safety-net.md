@@ -304,10 +304,9 @@ https://www.linkedin.com/posts/aamicheal_devops-gitops-automation-share-74864268
 ---
 
 ## GitHub Repository URL
+Paste your forked repository URL here:
 
 https://github.com/Fhelobanty/devops-micro-internship-pravinmishra
-
-`Add your URL here`
 
 ---
 

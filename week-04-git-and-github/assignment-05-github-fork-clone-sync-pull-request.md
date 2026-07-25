@@ -149,9 +149,9 @@ https://www.linkedin.com/posts/aamicheal_devops-git-github-share-748625987992664
 
 ## Fork URL
 
-https://github.com/Fhelobanty/devops-micro-internship-interviews
+Paste your Pull Request URL here:
 
-`Add your URL here`
+https://github.com/Fhelobanty/devops-micro-internship-interviews
 
 ---
 
