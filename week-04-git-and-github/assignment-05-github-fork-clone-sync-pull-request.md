@@ -127,8 +127,8 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/374
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
+
 https://www.linkedin.com/posts/aamicheal_devops-git-github-share-7486259879926648832-65zR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA
-`Add your URL here`
 
 ---
 
