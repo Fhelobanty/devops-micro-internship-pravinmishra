@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Atoyebi Micheal|
+| **LinkedIn** | [Cloud Engineer](https://www.linkedin.com/in/aamicheal/) |
+| **Location** | Kwara State, Nigeria |
+| **Background** | Cloud, DevOps & AI Engineer |
+| **Goal** | Become Cloud & DevOps professional |
 
 ---
 
@@ -130,12 +130,12 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/aamicheal_pravin-mishra-the-cloudadvisory-linkedin-activity-7465432241356300289-hFdP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/from-history-lecture-halls-to-intelligent-cloud-systems-the-rise-of-micheal-atoyebi-994fabd7a5f4 |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_join-the-dmi-devops-micro-internship-share-7478634141383663616-TGH8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/from-history-lecture-halls-to-intelligent-cloud-systems-the-rise-of-micheal-atoyebi-994fabd7a5f4 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_hands-on-with-agentic-ai-building-real-ugcPost-7481107778762268673-ZZzn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA| https://medium.com/@fhelo3030/reflection-week-2-9aa2649058d7 |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_devops-linux-bashscripting-ugcPost-7484036731608973312-BPst/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA |https://medium.com/@fhelo3030/thinking-like-an-on-call-devops-engineer-my-linux-triage-experience-5be536d18241|
+| 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aamicheal_devops-gitops-automation-share-7486426890057154560-g8GR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/why-i-added-a-second-layer-of-review-to-my-git-workflow-8c0fe43cb071 |
+| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/aamicheal_devops-dmi-gitops-share-7488577424104837120-HbI6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/revisiting-the-foundations-how-my-devops-revision-week-strengthened-my-growth-2ca15ee39ebf |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |

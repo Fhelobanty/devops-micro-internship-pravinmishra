@@ -25,16 +25,17 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Chatgpt Screenshot](screenshots/Task1.png)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+### **Lesson Learned**
+
+I learnt that A protocol is simply a set of rules that helps devices communicate correctly, just like people need rules to have a clear conversation. Different protocols have different jobs (such as loading websites, sending emails, or transferring files), and they are essential because they allow the internet to work smoothly, accurately, and securely.
+
 
 ---
 
@@ -59,7 +60,14 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user tries to access EpicReads from anywhere in the world, the internet helps deliver the website using several technologies. 
+
+First, every device has an IP address, which works like a home address to identify it on the network. When a user enters the website URL, the request is sent using HTTP or HTTPS protocols, which define how data is transferred securely between the browser and the server.
+
+The data is broken into small pieces called packets through a process known as packet switching. These packets travel across different routes on the internet to reach the server in Finland.
+
+TCP/IP ensures that all packets are delivered correctly and reassembled in the right order. This process allows users worldwide to access the website quickly and reliably.
+
 
 ---
 
@@ -91,10 +99,8 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/Architechture.png)
 
-
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +108,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+React / Vue.js
+Next.js
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Node.js / Express
+Django / Flask
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+PostgreSQL
+MongoDB
 
 ---
 
@@ -142,7 +148,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is a system that converts human-readable domain names like epicreads.com into IP addresses such as 52.172.142.222 so browsers can locate websites on the internet. Without DNS, users would need to remember IP addresses to access websites.
+The DNS record type used to connect the domain to the IP address is an A Record. An A Record links a domain name directly to an IPv4 address, allowing users to access the website using the domain instead of the server IP and port number.
 
 ---
 
@@ -178,10 +185,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
+![VS Code Setup Screenshot](screenshots/Task5vscode.png)
 
 ---
 
@@ -218,7 +222,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/aamicheal_pravin-mishra-the-cloudadvisory-linkedin-activity-7465432241356300289-hFdP?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA
 ```
 
 ---
@@ -227,7 +231,25 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My Week 0 Journey in the DevOps Micro Internship
+I’m excited to share that I’ve successfully completed Week 0 of the DevOps Micro Internship led by Pravin Mishra. This first phase of the internship introduced me to several core concepts that form the foundation of DevOps and modern software systems.
+
+🔹 ChatGPT as a Learning Assistant
+I learned how to effectively use ChatGPT to simplify technical concepts, assist with research, improve productivity, and support problem-solving during learning and development tasks.
+🔹 Internet & Networking Fundamentals
+I explored how the internet works and gained a better understanding of networking protocol concepts such as IP addresses, DNS, TCP/IP, and HTTPS. I also learned how users around the world communicate with web servers and access websites securely.
+🔹 Application Architecture & Technology Stack
+I studied the difference between two-tier and three-tier application architectures and understood how the frontend, backend, and database layers interact with each other in real-world applications. 
+🔹 Domain Name System (DNS)
+I learned how DNS translates human-readable domain names into IP addresses and understood the role of DNS records such as A Records in connecting domains to servers.
+🔹 Visual Studio Code Setup
+I successfully configured Visual Studio Code, customized the development environment, opened the integrated terminal, and executed basic system commands as part of my setup for future DevOps hands-on activities.
+
+This week has given me a strong foundation in DevOps basics, technical research, development tools, and networking concepts. I’m excited to continue learning, building projects, and improving my practical DevOps skills throughout this internship journey.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) Cohort 3 run by Pravin Mishra. You can be part of this learning community too. 
+JOIN HERE (https://lnkd.in/dF6fpQdt ) DMI Cohort 3: https://lnkd.in/d5BvQjta
+Pravin Mishra Profile: https://lnkd.in/dxxNG6hH
 
 ---
 
@@ -235,19 +257,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found it easy to understand the basic concepts of DevOps, application architecture, and networking because they were explained in a structured way. Setting up Visual Studio Code and using ChatGPT as a learning assistant also helped me complete the activities more efficiently.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The most challenging part was understanding how different networking components, such as DNS, IP addresses, TCP/IP, and HTTPS, work together behind the scenes to deliver a website. It required extra reading and practice to fully understand the overall flow.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will spend more time practicing the concepts through hands-on exercises instead of only reading about them. I also plan to improve my command-line skills, become more comfortable using development tools, and strengthen my understanding of DevOps fundamentals as I prepare for more advanced tasks.
 
 ---
 
