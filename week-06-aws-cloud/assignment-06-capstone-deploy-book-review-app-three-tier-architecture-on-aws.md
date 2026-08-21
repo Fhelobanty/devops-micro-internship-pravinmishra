@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![Diagram](screenshots/As6Arch.jpg)
 
 ---
 
@@ -34,13 +34,13 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+US East (Ohio) — us-east-2
 
 ---
 
 **Services used:**
 
-Write your answer here.
+Amazon VPC, Amazon EC2, Application Load Balancer (Public and Internal), Amazon RDS for MySQL, RDS Read Replica, NAT Gateway, Route Tables, Security Groups, Nginx, Node.js/Express, Next.js, PM2, and MySQL.
 
 ---
 
@@ -56,7 +56,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+`http://book-review-web-alb-1495210020.us-east-2.elb.amazonaws.com/book/1`
 
 ---
 
@@ -70,37 +70,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Screenshot 1 — Web Tier EC2 instance in a public subnet
 
-Add your screenshot here.
+![WEB](screenshots/As6WebEC2.png)
 
 ---
 
 #### Screenshot 2 — App Tier EC2 instance in a private subnet
 
-Add your screenshot here.
+![APP](screenshots/As6AppEC2.png)
 
 ---
 
 #### Screenshot 3 — Public Application Load Balancer configuration or healthy targets
 
-Add your screenshot here.
+![WebHealthy](screenshots/As6WEBALB.png)
 
 ---
 
 #### Screenshot 4 — Internal Application Load Balancer configuration or healthy targets
 
-Add your screenshot here.
+![InternalHealthy](screenshots/As6InternalALB.png)
 
 ---
 
 #### Screenshot 5 — Amazon RDS for MySQL showing Multi-AZ and the read replica
 
-Add your screenshot here.
+![RDS](screenshots/As6RDS.png)
 
 ---
 
 #### Screenshot 6 — Book Review App UI working through the public ALB
 
-Add your screenshot here.
+![ALB](screenshots/As6ALB.png)
 
 ---
 
@@ -114,19 +114,28 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The Book Review App was successfully deployed in a three-tier AWS architecture using US East (Ohio) — us-east-2. A custom VPC with separate public Web Tier, private App Tier, and private Database Tier subnets was configured across two Availability Zones. The Web Tier runs Next.js behind Nginx and a public Application Load Balancer, while the Node.js/Express backend runs privately behind an internal Application Load Balancer. Amazon RDS for MySQL was deployed in the private Database Tier with Multi-AZ and a read replica.
+
+The complete backend application path was successfully validated. The App Tier connects to the RDS database, the internal ALB successfully forwards traffic to the App EC2 on port 3001, and the /api/books endpoint returns the three database records successfully. The public ALB successfully reaches the Web EC2 and the frontend is accessible through the public ALB.
 
 ---
 
 **Issues encountered and fixes:**
 
-Write your answer here.
+1. App EC2 SSH connection timed out — The private App EC2 was not directly accessible from the internet. The Web EC2 was used as the access point through the private network, allowing secure connectivity to the private App Tier.
+2. Git was not installed on the App EC2 — Git was installed before cloning the Book Review App repository.
+3. RDS endpoint initially failed to resolve — The database endpoint was corrected to the RDS endpoint in the us-east-2 region.
+4. Public ALB initially returned an error because the Web EC2 had not been registered with its target group — The Web EC2 was registered on port 80, after which the Public ALB target became healthy.
+5. The frontend initially could not retrieve books — The Nginx configuration was updated so API requests were forwarded to the internal ALB on port 3001. This restored the Web EC2 → Internal ALB → App EC2 API path.
+6. Frontend API path contained a duplicated /api path — The Next.js frontend was corrected from /api/api/books to /api/books, followed by a new production build.
+7. The backend PM2 process initially failed with EADDRINUSE — An older manually running Node.js process was occupying port 3001. The old process was terminated and the backend was restarted successfully under PM2.
+8. Backend and database connectivity were validated — The /api/books endpoint returned HTTP 200 OK with three book records, and registration through the internal ALB returned HTTP 201 Created.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Console, Ubuntu/Linux CLI, Nginx, Node.js/Express, Next.js, PM2, MySQL client, Git/GitHub, curl, AWS documentation, technical research resources, and ChatGPT.
 
 ---
 
@@ -148,7 +157,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![POST](screenshots/A6Lknp.png)
 
 ---
 
