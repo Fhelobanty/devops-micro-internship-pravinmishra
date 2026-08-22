@@ -1,4 +1,4 @@
-# Assignment 6 — Capstone: Deploy Book Review App (Three-Tier Architecture) on AWS
+# Assignment 6 — Capstone Assignment — Deploy Book Review App (Three-Tier Architecture) on AWS
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -38,7 +38,7 @@ US East (Ohio) — us-east-2
 
 ---
 
-**Services used:**
+**Services:**
 
 Amazon VPC, Amazon EC2, Application Load Balancer (Public and Internal), Amazon RDS for MySQL, RDS Read Replica, NAT Gateway, Route Tables, Security Groups, Nginx, Node.js/Express, Next.js, PM2, and MySQL.
 
@@ -68,37 +68,37 @@ Capture visual proof of every tier and load balancer.
 
 ### Evidence
 
-#### Screenshot 1 — Web Tier EC2 instance in a public subnet
+#### Web EC2
 
 ![WEB](screenshots/As6WebEC2.png)
 
 ---
 
-#### Screenshot 2 — App Tier EC2 instance in a private subnet
+#### App EC2
 
 ![APP](screenshots/As6AppEC2.png)
 
 ---
 
-#### Screenshot 3 — Public Application Load Balancer configuration or healthy targets
+#### Public ALB
 
 ![WebHealthy](screenshots/As6WEBALB.png)
 
 ---
 
-#### Screenshot 4 — Internal Application Load Balancer configuration or healthy targets
+#### Internal ALB
 
 ![InternalHealthy](screenshots/As6InternalALB.png)
 
 ---
 
-#### Screenshot 5 — Amazon RDS for MySQL showing Multi-AZ and the read replica
+#### RDS + Replica
 
 ![RDS](screenshots/As6RDS.png)
 
 ---
 
-#### Screenshot 6 — Book Review App UI working through the public ALB
+#### App UI proof
 
 ![ALB](screenshots/As6ALB.png)
 
@@ -120,7 +120,7 @@ The complete backend application path was successfully validated. The App Tier c
 
 ---
 
-**Issues encountered and fixes:**
+**Issues + fixes:**
 
 1. App EC2 SSH connection timed out — The private App EC2 was not directly accessible from the internet. The Web EC2 was used as the access point through the private network, allowing secure connectivity to the private App Tier.
 2. Git was not installed on the App EC2 — Git was installed before cloning the Book Review App repository.
@@ -155,7 +155,7 @@ Paste your LinkedIn post URL here:
 
 ---
 
-#### Screenshot — Published LinkedIn post
+#### Screenshot of LinkedIn post
 
 ![POST](screenshots/A6Lknp.png)
 
