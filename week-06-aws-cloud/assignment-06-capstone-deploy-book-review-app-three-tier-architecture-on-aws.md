@@ -151,7 +151,7 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/aamicheal_aws-devops-cloudcomputing-activity-7496701930895855617-AhKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
 
 ---
 

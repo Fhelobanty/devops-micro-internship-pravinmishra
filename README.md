@@ -136,7 +136,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/aamicheal_devops-linux-bashscripting-ugcPost-7484036731608973312-BPst/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA |https://medium.com/@fhelo3030/thinking-like-an-on-call-devops-engineer-my-linux-triage-experience-5be536d18241|
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aamicheal_devops-gitops-automation-share-7486426890057154560-g8GR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/why-i-added-a-second-layer-of-review-to-my-git-workflow-8c0fe43cb071 |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aamicheal_devops-dmi-gitops-share-7488577424104837120-HbI6/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/revisiting-the-foundations-how-my-devops-revision-week-strengthened-my-growth-2ca15ee39ebf |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/aamicheal_dmibypravinmishra-aws-agenticai-activity-7496777177300901888-V7gZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/ai-assisted-aws-security-cost-audit-from-detection-to-verified-remediation-b513a40abdfa |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
