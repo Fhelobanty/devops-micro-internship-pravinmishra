@@ -20,13 +20,59 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
+![alt text](screenshots/As6T1ss1.png)
 
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+**Architecture Assumptions**
+
+The Book Review App is deployed in South Africa North using a three-tier architecture that separates the Web, Application, and Database layers.
+
+The solution is built within M_Book-Review-VNet, using the address space 10.0.0.0/16. Each application tier has its own subnet to provide network segmentation:
+
+Web Tier: Book-Review-Web-Subnet — 10.0.1.0/24
+Application Tier: Book-Review-App-Subnet — 10.0.2.0/25
+Database Tier: Book-Review-DB-Subnet — 10.0.3.0/26
+
+The Public Load Balancer (M-Book-Review-Public-LB) provides the application's public entry point through 20.164.135.151. Traffic is forwarded to the Web VM, M-Book-Review-Web-VM, which uses private IP 10.0.1.4 and NGINX to serve the frontend and proxy API requests.
+
+API traffic is forwarded from NGINX to the Internal Load Balancer (M-Book-Review-internal-LB) at 10.0.2.50:5000. The internal load balancer forwards requests to the Node.js backend running on m-bookreviewapp, with private IP 10.0.2.4.
+
+The backend connects to Azure Database for MySQL Flexible Server (m-book-review-db) over TCP port 3306. The database is integrated with the VNet and uses Private DNS for private name resolution.
+
+Sensitive application configuration is managed using Azure Key Vault (M-bookreview-kv). Network Security Groups and health probes are used to control traffic and verify service availability.
+
+The intended application traffic flow is:
+
+Internet → Public Load Balancer → Web Tier → Internal Load Balancer → Application Tier → Database Tier
+
+This design keeps the application and database communication on private network paths while providing a controlled public entry point.
+
+**Selected Azure Services**
+
+The deployment uses Azure Virtual Network for network isolation, Azure Virtual Machines for the Web and Application tiers, Azure Load Balancer for public and internal traffic management, and Azure Database for MySQL Flexible Server for the managed database tier.
+
+NGINX is used as the Web-tier server and reverse proxy, while Node.js provides the application/API runtime.
+
+Azure Key Vault is used for secret management, Private DNS provides private database name resolution, and Network Security Groups enforce traffic restrictions between the network tiers. Azure Load Balancer health probes provide backend health verification.
+
+Architecture Summary
+
+The deployment separates presentation, business logic, and data responsibilities while controlling communication between each tier.
+
+Public Endpoint: 20.164.135.151
+
+Web VM: 10.0.1.4
+
+Internal Application Endpoint: 10.0.2.50:5000
+
+Backend VM: 10.0.2.4:5000
+
+Database: m-book-review-db — MySQL 3306
+
+VNet: M_Book-Review-VNet — 10.0.0.0/16
 
 ---
 
@@ -40,19 +86,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![alt text](screenshots/As6T2ss3.png)
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![alt text](screenshots/As6T2ss4.png)
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![alt text](screenshots/As6T2ss5.png)
 
 ---
 
@@ -66,13 +112,13 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![alt text](screenshots/As6T3ss6.png)
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![alt text](screenshots/As6T3ss7.png)
 
 ---
 
@@ -86,13 +132,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![alt text](screenshots/As6T4ss8.png)
 
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![alt text](screenshots/As6T4ss9.png)
 
 ---
 
@@ -106,19 +152,19 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![alt text](screenshots/As6T5ss10.png)
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![alt text](screenshots/As6T5ss11.png)
 
 ---
 
 #### Screenshot 12 — Internal health-check or API response (without exposing secrets)
 
-Add your screenshot here.
+![alt text](screenshots/As6T5ss12.png)
 
 ---
 
@@ -132,19 +178,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![alt text](screenshots/As6T6ss13.png)
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![alt text](screenshots/As6T6ss14.png)
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![alt text](screenshots/As6T6ss15.png)
 
 ---
 
@@ -158,19 +204,20 @@ Configure the approved public entry service with health probes and backend pools
 
 #### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
 
-Add your screenshot here.
+![alt text](screenshots/As6T7ss16.png)
+![alt text](screenshots/As6T7ss166.png)
 
 ---
 
 #### Screenshot 17 — Internal application-tier load-balancing or routing configuration where applicable
 
-Add your screenshot here.
+![alt text](screenshots/As6T7ss17.png)
 
 ---
 
 #### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
 
-Add your screenshot here.
+![alt text](screenshots/As6T7ss18.png)
 
 ---
 
@@ -184,25 +231,27 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 #### Screenshot 19 — Browser showing the Book Review App through the public endpoint
 
-Add your screenshot here.
+![alt text](screenshots/As6T8ss19.png)
 
 ---
 
 #### Screenshot 20 — Proof of successful database-backed read and write operations
 
-Add your screenshot here.
+![alt text](screenshots/As6T8ss20.png)
 
 ---
 
 #### Screenshot 21 — Evidence that private tiers are not publicly accessible
 
-Add your screenshot here.
+![alt text](screenshots/As6T8ss21.png)
 
 ---
 
 #### Screenshot 22 — Availability-test and healthy-target evidence
 
-Add your screenshot here.
+![alt text](screenshots/As6T8ss22.png)
+![alt text](screenshots/As6T8ss222.png)
+![alt text](screenshots/As6T8ss2222.png)
 
 ---
 
@@ -210,7 +259,7 @@ Add your screenshot here.
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+`http://20.164.135.151/`
 
 ---
 
@@ -218,7 +267,17 @@ Paste your public endpoint URL here:
 
 Summarize what worked, issues encountered and how they were fixed, and the availability/security/secrets/monitoring/backup choices made.
 
-Write your answer here.
+### Notes
+
+The Book Review App was successfully deployed on Azure using a three-tier architecture consisting of separate Web, Application, and Database tiers. The Web tier uses NGINX and is accessed through the Azure Public Load Balancer, while application requests are forwarded through the internal load balancer to the private Node.js backend. The backend connects to Azure Database for MySQL through private networking.
+
+During deployment, several issues were identified and resolved. These included backend port conflicts, incorrect backend routing, frontend API configuration issues, and excessive duplicate database indexes created by Sequelize schema synchronization. The database index issue was resolved by removing the unnecessary duplicate indexes while retaining the required unique email index. The backend was then configured to run consistently on port `5000`, and the NGINX reverse proxy was updated to route API requests through the internal application endpoint.
+
+Security was implemented by separating the Web, Application, and Database tiers into dedicated subnets and restricting communication to the required ports. The application and database tiers use private network paths, while Azure Key Vault is used for secure management of application secrets. Public access is provided through the designated Public Load Balancer rather than exposing the backend service directly.
+
+Availability and operational visibility were addressed using Azure Load Balancer health probes and Azure monitoring capabilities. The managed MySQL database provides Azure-managed backup and recovery capabilities, while the application architecture allows the individual tiers to be managed independently.
+
+The final deployment was validated through the public application endpoint, including frontend access, API communication, database-backed read operations, and database-backed write operations. Private connectivity and service health were also verified during testing.
 
 ---
 
