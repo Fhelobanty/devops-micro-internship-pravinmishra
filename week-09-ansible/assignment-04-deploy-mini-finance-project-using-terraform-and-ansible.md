@@ -420,7 +420,7 @@ I also learned how to use SSH key authentication, Ansible inventories, multi-pla
 
 #### Screenshot 15 — Published LinkedIn post showing the text and at least one deployment screenshot
 
-![alt text](screenshots/As3lindl.png)
+![alt text](screenshots/As4lnkdln.png)
 
 ---
 
