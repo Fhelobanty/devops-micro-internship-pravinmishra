@@ -436,13 +436,21 @@ Paste your LinkedIn post URL here:
 
 **One challenge you faced and how you fixed it:**
 
-Add your answer here.
+One challenge was discovering that the repository URL initially used in the Ansible playbook was returning a 404 Repository Not Found error.
+Instead of assuming the Azure infrastructure was the problem, I tested the connection from the VM and verified:
+ GitHub connectivity
+ DNS resolution
+ General HTTPS connectivity
+ The specific repository URL
+After identifying the correct Mini Finance repository URL and updating the playbook, the deployment completed successfully.
 
 ---
 
 **One real-world example where you can use this learning:**
 
-Add your answer here.
+This workflow reflects how DevOps teams can separate responsibilities between infrastructure and application deployment.
+Terraform can consistently provision cloud infrastructure, while Ansible can configure servers and deploy applications on top of that infrastructure.
+This approach can be extended into CI/CD pipelines where infrastructure and application deployments are automated, repeatable, and easier to maintain.
 
 ---
 
