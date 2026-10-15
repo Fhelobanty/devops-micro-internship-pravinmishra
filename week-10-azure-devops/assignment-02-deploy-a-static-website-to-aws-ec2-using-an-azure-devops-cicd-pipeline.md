@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![alt text](screenshots/As2T1ss1.png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![alt text](screenshots/As2T3ss2.png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![alt text](screenshots/As2T4ss3.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![alt text](screenshots/As2T5ss4.png)
 
 ---
 
@@ -136,11 +136,11 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![alt text](screenshots/As2T6ss5.png)
 
 ## Final Website URL
 
-`http://<target-vm-public-ip>`
+`http://51.21.219.24>`
 
 Replace the placeholder with your actual website URL:
 
@@ -152,7 +152,18 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+[Deploy Static Website to AWS EC2 Using an Azure DevOps CI/CD Pipeline
+For this assignment, I deployed a static website to an AWS EC2 instance and created an automated CI/CD pipeline using Azure DevOps.
+I started by importing the provided GitHub repository into Azure Repos and updating the index.html file to include my full name, Atoyebi Micheal. I then provisioned the AWS infrastructure using Terraform, including a VPC, public subnet, internet gateway, route table, security group, and Ubuntu EC2 instance.
+After creating the EC2 instance, I used Ansible to configure the server. Nginx was installed and configured as the web server, SSH access was prepared for deployment, and the /var/www/html directory was configured so that the deployment user could write website files to it. I also verified that Nginx was running correctly and that the server could return an HTTP response.
+Next, I created an SSH service connection in Azure DevOps for the EC2 server using SSH key authentication. I then created the Azure DevOps YAML pipeline using the required self-hosted agent pool.
+The pipeline was configured to automatically run when changes are pushed to the repository. It checks out the latest source code, displays important pipeline information such as my name, branch, commit ID, self-hosted agent, and prepared files, and then uses CopyFilesOverSSH@0 to transfer the website files to the EC2 server. The .git directory and azure-pipelines.yml file are excluded from deployment.
+After the files are copied, the pipeline uses SSH@0 to verify that index.html exists on the server and that Nginx is successfully returning an HTTP response.
+During testing, I encountered a WSL issue with the Windows self-hosted Azure DevOps agent. The agent was initially running under the Network Service account, while Ubuntu WSL was configured for my Windows user. I corrected the agent service account and changed the default WSL distribution to Ubuntu. After that, the Bash pipeline step worked correctly and the deployment pipeline completed successfully.
+The final successful pipeline run was #20261009.4. It successfully completed the pipeline information, website deployment, and deployment verification stages.
+Finally, I accessed the website through the EC2 public IP address and confirmed that the website was being served successfully by Nginx. The deployed page displayed my full name, Atoyebi Micheal, confirming that the website had been successfully deployed from Azure DevOps to AWS EC2.
+Final website:
+http://51.21.219.24]
 
 ---
 
@@ -167,11 +178,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![alt text](screenshots/As2Tlkdn.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+[https://www.linkedin.com/posts/aamicheal_devops-aws-azuredevops-ugcPost-7514143378553344000-G2Rc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA]
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

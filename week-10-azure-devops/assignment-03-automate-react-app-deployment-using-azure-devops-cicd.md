@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![alt text](screenshots/As3T1ss1.png)
 
 ---
 
@@ -81,7 +81,10 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![alt text](screenshots/As3T4ss2.png)
+![alt text](screenshots/As3T4ss22.png)
+![alt text](screenshots/As3T4ss222.png)
+![alt text](screenshots/As3T4ss2222.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +107,8 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![alt text](screenshots/As3T5ss3.png)
+![alt text](screenshots/As3T5ss33.png)
 
 ---
 
@@ -122,7 +126,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![alt text](screenshots/As3T6ss4.png)
 
 ---
 
@@ -143,7 +147,11 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![alt text](screenshots/As3T7ss5.png)
+![alt text](screenshots/Ass3CICDT7.png)
+![alt text](screenshots/Ass3CICDT7AutoTrigger.png)
+![alt text](screenshots/Ass3CICDT7AutoTriggercompletion.png)
+![alt text](screenshots/Ass3CICDT7AutoTriggercompletionTest.png)
 
 ## Final Application URL
 
@@ -151,7 +159,7 @@ Add your screenshot here.
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+[http://13.60.253.85/]
 
 ---
 
@@ -159,7 +167,18 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+[## CI/CD Workflow Summary
+
+I created an automated CI/CD pipeline in Azure DevOps to build, test, publish, and deploy a React application to an Ubuntu EC2 virtual machine running Nginx. The pipeline is configured in YAML and uses the `main` branch as its source.
+
+The workflow has four stages:
+
+1. **Build:** Installs Node.js dependencies and creates a production build of the React application.
+2. **Test:** Runs the React application tests and checks to help verify the application.
+3. **Publish:** Publishes the production build as a pipeline artifact.
+4. **Deploy:** Connects to the Ubuntu EC2 instance through SSH and copies the production files to `/var/www/html`, where Nginx serves the website.
+
+The pipeline completed successfully, with all four stages passing. I verified the deployment by checking the files in the Nginx web root and opening the application using the EC2 instance's public IP address. I also committed an update to the `main` branch to verify the automatic pipeline trigger.]
 
 ---
 
@@ -174,11 +193,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](screenshots/As3T7sslk.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://www.linkedin.com/posts/aamicheal_devops-azuredevops-cicd-ugcPost-7514373851326230531-o2Ps/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA]
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+![alt text](screenshots/As4T4ss1.png)
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,8 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+![alt text](screenshots/As4T4ss2.png)
+![alt text](screenshots/As4T4ss22.png)
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +125,7 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+![alt text](screenshots/As4T7ss3.png)
 
 ---
 
@@ -137,7 +138,8 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+![alt text](screenshots/As4T7ss4.png)
+![alt text](screenshots/As4T7ss44.png)
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +164,7 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+![alt text](screenshots/As4T8ss5.png)
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +174,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+[http://20.119.70.192/]
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+[https://github.com/Fhelobanty/infra-epicbook-fhelo]
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+[https://github.com/Fhelobanty/theepicbook]
 
 ---
 
@@ -188,7 +190,7 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+[The two Separate Infrastructure and Application repositories were used to keep infrastructure management independent from application development and deployment. The Infrastructure Repository (infra-epicbook-fhelo) contains Terraform configuration and the Azure DevOps pipeline used to provision and manage Azure resources. The Application Repository (theepicbook) contains the EpicBook source code and Ansible playbooks used to configure the virtual machines, deploy the application, and set up the Nginx reverse proxy. This separation improves organization, maintainability, and security while allowing infrastructure and application changes to be managed independently.]
 
 ---
 
@@ -201,7 +203,7 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+[The non-sensitive Terraform outputs were manually transferred from the Infrastructure Repository (infra-epicbook-fhelo) to the Application Repository (theepicbook) after the Azure resources were provisioned. The app_public_ip output was used to identify the frontend VM, while backend_ansible_host was added to the Ansible inventory to identify the backend VM for SSH connections. The backend_private_ip was stored in ansible/group_vars/all.yml so the frontend Nginx configuration could route traffic to the backend over the private network. The mysql_fqdn was also stored in the same variables file to configure the backend application’s connection to Azure Database for MySQL. This manual handoff allowed Ansible to configure and deploy the application using the Terraform-provisioned infrastructure without sharing sensitive credentials in the repository.]
 
 ---
 
@@ -216,11 +218,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![alt text](screenshots/As4T8linkdln.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://www.linkedin.com/posts/aamicheal_devops-microsoftazure-terraform-ugcPost-7516368446872272896-9XOZ/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA]
 
 Your post must include:
 
