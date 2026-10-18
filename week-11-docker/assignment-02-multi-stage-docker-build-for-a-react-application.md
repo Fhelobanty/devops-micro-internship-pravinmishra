@@ -20,7 +20,7 @@ Clone `https://github.com/pravinmishraaws/my-react-app.git` and create a `.docke
 
 #### Screenshot 1 — Contents of the `.dockerignore` file
 
-Add your screenshot here.
+![alt text](screenshots/As2T1ss1.png)
 
 ---
 
@@ -34,13 +34,13 @@ Create `Dockerfile.single`, build `react-single`, and run it on port 3000.
 
 #### Screenshot 2 — Contents of `Dockerfile.single`
 
-Add your screenshot here.
+![alt text](screenshots/As2T2ss2.png)
 
 ---
 
 #### Screenshot 3 — Browser displaying the application running from the single-stage container
 
-Add your screenshot here.
+![alt text](screenshots/As2T2ss3.png)
 
 ---
 
@@ -54,13 +54,13 @@ Create a multi-stage Dockerfile with separate build and Nginx runtime stages, bu
 
 #### Screenshot 4 — Contents of the multi-stage Dockerfile
 
-Add your screenshot here.
+![alt text](screenshots/As2T3ss4.png)
 
 ---
 
 #### Screenshot 5 — Browser displaying the application running from the multi-stage container
 
-Add your screenshot here.
+![alt text](screenshots/As2T3ss5.png)
 
 ---
 
@@ -74,7 +74,7 @@ Compare the single-stage and multi-stage image sizes and calculate the percentag
 
 #### Screenshot 6 — Docker image list showing both image sizes
 
-Add your screenshot here.
+![alt text](screenshots/As2T4ss6.png)
 
 ---
 
@@ -84,19 +84,40 @@ Add your screenshot here.
 
 Write a 5–8 line analysis covering the percentage reduction, security benefits, reduced attack surface, faster distribution, and one build-caching optimization used.
 
+The single-stage Docker image (`react-single:latest`) has a size of 170 MB, while the multi-stage image (`react-multistage:latest`) is 29.1 MB.
+
+The multi-stage build reduces the image size by 140.9 MB, which is approximately 82.88%.
+
+The multi-stage approach keeps Node.js, development dependencies, and build tools out of the final runtime image.
+
+Using Nginx as the runtime reduces the software included in the production image and helps reduce its attack surface.
+
+The smaller image can reduce image transfer time and storage requirements, although actual deployment speed depends on the environment and network.
+
+Copying `package*.json` before running `npm ci` improves build caching because dependency installation can be reused when the package files have not changed.
+
 ### Evidence
 
 #### Screenshot 7 — Analysis included in your submission document
 
-Add your screenshot here.
+![alt text](screenshots/As2T5ss7.png)
 
 ---
 
 ### Notes
 
-Write your analysis here.
 
-Write your answer here.
+**Image sizes**
+
+| **Image** | **Size (DISK USAGE)** |
+|---|---:|
+| `react-single:latest` | 170 MB |
+| `react-multistage:latest` | 29.1 MB |
+
+**Percentage reduction** = ((170 − 29.1) ÷ 170) × 100 = (140.9 ÷ 170) × 100 = **82.88%**
+
+**Answer**
+The multi-stage Docker build is more efficient than the single-stage build because it reduces the image size from 170 MB to 29.1 MB, an 82.88% reduction. It saves 140.9 MB and makes the final image smaller and easier to distribute. Using Nginx as the runtime excludes Node.js and build tools from the final image, reducing the attack surface. Docker build caching is improved by copying `package*.json` before running `npm ci`, allowing dependencies to be reused when the package files have not changed. Overall, the multi-stage approach provides a smaller production image with fewer unnecessary components.
 
 ---
 
@@ -107,6 +128,8 @@ Write your answer here.
 Optionally configure an Nginx health check, cache headers, parameterized ports via environment variables, or a lighter runtime image, and compare results.
 
 > Screenshot optional.
+
+![alt text](screenshots/As2T6ss8.png)
 
 ---
 
@@ -122,13 +145,13 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/aamicheal_devops-docker-containerization-share-7517257888441028608-HsuM/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![alt text](screenshots/As2T6ss8linkedln.png)
 
 ---
 
