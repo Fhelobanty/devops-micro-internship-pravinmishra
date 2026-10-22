@@ -95,8 +95,13 @@ Paste your forked repository URL here:
 ## LinkedIn post URL
 
 
+<<<<<<< HEAD
 
 `https://www.linkedin.com/posts/aamicheal_hands-on-with-agentic-ai-building-real-ugcPost-7481107778762268673-ZZzn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
+=======
+`Add your URL here`
+
+>>>>>>> upstream/main
 ---
 
 # Completion Checklist
