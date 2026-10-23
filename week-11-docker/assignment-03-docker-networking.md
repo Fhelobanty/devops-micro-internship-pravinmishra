@@ -76,18 +76,6 @@ Ensure that the VM public IP is visible in the address bar. Add your full name a
 
 ---
 
-#### Screenshot 5 — Output of `docker ps` showing the running `myweb` container
-
-![alt text](screenshots/As3T1ss5.png)
-
----
-
-#### Screenshot 6 — Browser displaying the Nginx Welcome Page using the Public IP address
-
-![alt text](screenshots/As3T1ss6.png)
-
----
-
 # Task 2 — Connect Multiple Containers Using a Custom Bridge Network
 
 ## Goal
@@ -104,7 +92,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-![alt text](screenshots/As3T2ss1.png)
+![alt text](screenshots/As3T2ss5.png)
 
 ---
 
@@ -118,7 +106,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-![alt text](screenshots/As3T2ss2.png)
+![alt text](screenshots/As3T2ss6.png)
 
 ---
 
@@ -132,7 +120,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-![alt text](screenshots/As3T2ss3.png)
+![alt text](screenshots/As3T2ss7.png)
 
 ---
 
@@ -146,37 +134,7 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-![alt text](screenshots/As3T2ss4.png)
-
----
-
-#### Screenshot 5 — Output of `docker ps` showing the frontend container
-
-![alt text](screenshots/As3T2ss5.png)
-
----
-
-#### Screenshot 6 — Output of `docker ps` showing both frontend and backend containers
-
-![alt text](screenshots/As3T2ss6.png)
-
----
-
-#### Screenshot 7 — Output of `docker network inspect mynetwork`
-
-![alt text](screenshots/As3T2ss7.png)
-
----
-
-#### Screenshot 8 — Successful `curl http://<Public-IP>` showing "Hello from Frontend"
-
-![alt text](screenshots/As3T2ss8.png)
-
----
-
-#### Screenshot 9 — Successful `curl backend` output from the frontend container showing the Nginx Welcome Page
-
-![alt text](screenshots/As3T2ss9.png)
+[alt text](screenshots/As3T2ss8.png)
 
 ---
 
@@ -198,7 +156,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-![alt text](screenshots/As3T3ss1.png)
+![alt text](screenshots/As3T3ss9.png)
 
 ---
 
@@ -216,7 +174,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-![alt text](screenshots/As3T3ss2.png)
+![alt text](screenshots/As3T3ss10.png)
 
 ---
 
@@ -230,7 +188,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-![alt text](screenshots/As3T3ss3.png)
+![alt text](screenshots/As3T3ss11.png)
 
 ---
 
@@ -244,7 +202,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-![alt text](screenshots/As3T3ss4.png)
+![alt text](screenshots/As3T3ss12.png)
 
 ---
 
@@ -258,7 +216,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-![alt text](screenshots/As3T3ss5.png)
+![alt text](screenshots/As3T3ss13.png)
 
 ---
 
@@ -266,7 +224,7 @@ The output must display the Nginx Welcome Page HTML.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-![alt text](screenshots/As3T3ss6.png)
+![alt text](screenshots/As3T3ss14.png)
 
 ---
 
@@ -279,60 +237,16 @@ The output must include:
 ```text
 Expected result: frontend cannot reach db
 ```
-
-![alt text](screenshots/As3T3ss7.png)
-![alt text](screenshots/As3T3ss77.png)
-![alt text](screenshots/As3T3ss777.png)
+![alt text](screenshots/As3T3ss15.png)
 
 ---
 
 #### Screenshot 16 — Public Frontend Access
 
-![alt text](screenshots/As3T3ss8.png)
-
 ```text
 http://16.192.157.171
 ```
-
-#### Screenshot 9 — Output of `docker network inspect backend-network`
-
-![alt text](screenshots/As3T3ss9.png)
-
----
-
-#### Screenshot 10 — Output of `docker network inspect frontend-network`
-
-![alt text](screenshots/As3T3ss10.png)
-
----
-
-#### Screenshot 11 — Browser showing the frontend application
-
-![alt text](screenshots/As3T3ss11.png)
-
----
-
-#### Screenshot 12 — Successful `curl api` from the frontend container
-
-![alt text](screenshots/As3T3ss12.png)
-
----
-
-#### Screenshot 13 — MongoDB connection using `mongosh`
-
-![alt text](screenshots/As3T3ss13.png)
-
----
-
-#### Screenshot 14 — Successful document insertion
-
-![alt text](screenshots/As3T3ss14.png)
-
----
-
-#### Screenshot 15 — Successful retrieval of the inserted document
-
-![alt text](screenshots/As3T3ss15.png)
+![alt text](screenshots/As3T3ss16.png)
 
 ---
 
@@ -354,7 +268,7 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-![alt text](screenshots/As3T4ss1.png)
+![alt text](screenshots/As3T4ss17.png)
 
 ---
 
@@ -372,7 +286,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-![alt text](screenshots/As3T4ss2.png)
+![alt text](screenshots/As3T4ss18.png)
 
 ---
 
@@ -386,7 +300,7 @@ http://16.192.157.171
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-![alt text](screenshots/As3T4ss3.png)
+![alt text](screenshots/As3T4ss19.png)
 
 ---
 
@@ -399,13 +313,13 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-![alt text](screenshots/As3T4ss4.png)
+![alt text](screenshots/As3T4ss20.png)
 
 ---
 
 # Networking Notes
 
-![alt text](screenshots/As3T4ss5.png)
+
 
 ---
 
