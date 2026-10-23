@@ -49,6 +49,22 @@ I plan to explore Azure Virtual Machines first to understand how cloud-based ser
 
 ---
 
+# Share Your Progress on WhatsApp
+
+## Goal
+
+Share your Azure account setup achievement and DMI Leaderboard progress together in the same WhatsApp Status.
+
+### Evidence
+
+#### Screenshot 3 — Published WhatsApp Status showing your Azure account setup update, automatically generated DMI Leaderboard rank, and personal progress link
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not include payment details, subscription IDs, private phone numbers, or other sensitive information.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission
