@@ -67,7 +67,7 @@ The output must show the running `myweb` container with:
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.192.157.171
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
@@ -76,7 +76,6 @@ Ensure that the VM public IP is visible in the address bar. Add your full name a
 
 ---
 
-<<<<<<< HEAD
 #### Screenshot 5 — Output of `docker ps` showing the running `myweb` container
 
 ![alt text](screenshots/As3T1ss5.png)
@@ -90,9 +89,6 @@ Ensure that the VM public IP is visible in the address bar. Add your full name a
 ---
 
 # Task 2 — Connect Multiple Containers Using a Custom Bridge Network
-=======
-# Task 2 — Connect Containers Using a Custom Bridge Network
->>>>>>> upstream/main
 
 ## Goal
 
@@ -154,7 +150,6 @@ The output must show both `web` and `client` connected to `mynetwork`.
 
 ---
 
-<<<<<<< HEAD
 #### Screenshot 5 — Output of `docker ps` showing the frontend container
 
 ![alt text](screenshots/As3T2ss5.png)
@@ -186,9 +181,6 @@ The output must show both `web` and `client` connected to `mynetwork`.
 ---
 
 # Task 3 — Deploy a Multi-Tier Application Using Multiple Docker Networks
-=======
-# Task 3 — Demonstrate Multi-Network Isolation
->>>>>>> upstream/main
 
 ## Goal
 
@@ -296,17 +288,12 @@ Expected result: frontend cannot reach db
 
 #### Screenshot 16 — Public Frontend Access
 
-<<<<<<< HEAD
 ![alt text](screenshots/As3T3ss8.png)
-=======
-Add a browser screenshot showing the Nginx Welcome Page from the `frontend` container at:
->>>>>>> upstream/main
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.192.157.171
 ```
 
-<<<<<<< HEAD
 #### Screenshot 9 — Output of `docker network inspect backend-network`
 
 ![alt text](screenshots/As3T3ss9.png)
@@ -344,9 +331,6 @@ http://<YOUR-VM-PUBLIC-IP>
 ---
 
 #### Screenshot 15 — Successful retrieval of the inserted document
-=======
-Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
->>>>>>> upstream/main
 
 ![alt text](screenshots/As3T3ss15.png)
 
@@ -397,7 +381,7 @@ The output must confirm:
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://16.192.157.171
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
@@ -421,18 +405,7 @@ docker rm fastapp
 
 # Networking Notes
 
-<<<<<<< HEAD
 ![alt text](screenshots/As3T4ss5.png)
-=======
-Write a short note explaining:
-
-- Default bridge networking
-- Container-name communication on a custom bridge network
-- Why the frontend could not access the database in Task 3
-- The difference between bridge mode and host network mode
-
-Write your note here.
->>>>>>> upstream/main
 
 ---
 
@@ -454,11 +427,7 @@ Paste your LinkedIn post URL here:
 
 #### LinkedIn Post Screenshot
 
-<<<<<<< HEAD
 ![alt text](screenshots/As3T4ss6linkdln.png)
-=======
-Add a screenshot of the published LinkedIn post here.
->>>>>>> upstream/main
 
 ---
 
