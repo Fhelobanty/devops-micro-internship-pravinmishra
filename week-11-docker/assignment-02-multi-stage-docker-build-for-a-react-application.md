@@ -44,13 +44,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 #### Screenshot 2 — Contents of `Dockerfile.single`
 
-<<<<<<< HEAD
 ![alt text](screenshots/As2T2ss2.png)
-=======
-Add a screenshot showing the completed `Dockerfile.single`.
-
-Add your screenshot here.
->>>>>>> upstream/main
 
 ---
 
@@ -147,7 +141,6 @@ Percentage reduction: Add result here
 
 ## Goal
 
-<<<<<<< HEAD
 Write a 5–8 line analysis covering the percentage reduction, security benefits, reduced attack surface, faster distribution, and one build-caching optimization used.
 
 The single-stage Docker image (`react-single:latest`) has a size of 170 MB, while the multi-stage image (`react-multistage:latest`) is 29.1 MB.
@@ -184,22 +177,6 @@ Copying `package*.json` before running `npm ci` improves build caching because d
 
 **Answer**
 The multi-stage Docker build is more efficient than the single-stage build because it reduces the image size from 170 MB to 29.1 MB, an 82.88% reduction. It saves 140.9 MB and makes the final image smaller and easier to distribute. Using Nginx as the runtime excludes Node.js and build tools from the final image, reducing the attack surface. Docker build caching is improved by copying `package*.json` before running `npm ci`, allowing dependencies to be reused when the package files have not changed. Overall, the multi-stage approach provides a smaller production image with fewer unnecessary components.
-=======
-Evaluate the advantages of using multi-stage Docker builds.
-
-### Notes
-
-Write a short analysis of 5–8 lines covering:
-
-- The single-stage and multi-stage image sizes
-- The percentage reduction in image size
-- Security benefits of the smaller runtime image
-- How a smaller runtime image reduces the attack surface
-- How smaller images improve image pull and deployment speed
-- One Docker build-caching optimization you used
-
-Write your analysis here.
->>>>>>> upstream/main
 
 ---
 
@@ -242,11 +219,7 @@ Paste your LinkedIn post URL here:
 
 #### LinkedIn Post Screenshot
 
-<<<<<<< HEAD
 ![alt text](screenshots/As2T6ss8linkedln.png)
-=======
-Add a screenshot of the published LinkedIn post here.
->>>>>>> upstream/main
 
 ---
 

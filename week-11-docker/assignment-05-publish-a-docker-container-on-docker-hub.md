@@ -138,7 +138,17 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+1. Why Image Tagging Is Required Before Pushing to Docker Hub
+
+Tagging gives a Docker image the correct repository name and identifier so Docker knows where to upload it on Docker Hub. It also allows developers to label images with specific versions, making them easier to identify, share, and retrieve.
+
+2. Why a Container Registry Is Useful in DevOps Workflows
+
+A container registry provides a central place to store and distribute Docker images. It allows developers to push built images and enables deployment environments to pull those same images when needed. This improves consistency between development, testing, and production while supporting automated CI/CD pipelines.
+
+3. Why Production Deployments Should Use Versioned Image Tags Instead of Relying Only on latest
+
+The latest tag can point to different images as updates are published, making it harder to know exactly which version is deployed. Using specific tags, such as v1.0.0 or a Git commit identifier, makes releases easier to track, reproduce, and roll back. This helps teams maintain more predictable and reliable production deployments.
 
 ---
 
@@ -162,13 +172,13 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/aamicheal_docker-dockerhub-devops-ugcPost-7519445202944819201-86uw/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7519445204148490240&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![alt text](<screenshots/Assignment 5 linkdln.png>)
 
 ---
 

@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![alt text](screenshots/As8T1ss1.png)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![alt text](screenshots/As8T2ss2.png)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![alt text](screenshots/As8T3ss3.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![alt text](screenshots/As8T4ss4.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+![alt text](screenshots/As8T4ss5.png)
 
 ---
 
@@ -119,7 +119,7 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![alt text](screenshots/As8T5ss6.png)
 
 ---
 
@@ -135,7 +135,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![alt text](screenshots/As8T6ss7.png)
 
 ---
 
@@ -143,7 +143,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![alt text](screenshots/As8T6ss8.png)
 
 ---
 
@@ -163,7 +163,7 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+![alt text](screenshots/As8T7ss9.png)
 
 ---
 
@@ -176,7 +176,13 @@ Write a short comparison covering:
 - Final audit result
 - Security benefit of the improvement
 
-Write your comparison here.
+1. Initial audit finding: The initial audit identified that the Nginx reverse-proxy container needed hardening, particularly by running Nginx as a non-root user and improving container logging.
+
+2. Dockerfile or Docker Compose change applied: The Dockerfile was changed to use nginxinc/nginx-unprivileged:1.28-alpine and expose port 8080. The Docker Compose configuration was updated to publish host port 80 to container port 8080 and remove the Nginx log directory bind mount that caused permission errors.
+
+3. Final audit result: The reverse-proxy container is running and healthy as user 101, privileged mode is disabled, the website returns HTTP 200, and Docker Compose configuration validation passes.
+
+4. Security benefit: Running Nginx as a non-root user reduces the potential impact of a container compromise. Disabling privileged mode avoids unnecessary elevated host access, while successful health checks and HTTP tests confirm that the application remains available after the changes.
 
 ---
 
@@ -188,13 +194,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** `https://www.linkedin.com/posts/aamicheal_devops-docker-containersecurity-ugcPost-7519439205597421569-OWY6/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7519439208852250624&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA`
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+![alt text](screenshots/As8T7ss9linkedln.png)
 
 ---
 
