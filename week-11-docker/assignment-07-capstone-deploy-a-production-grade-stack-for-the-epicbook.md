@@ -541,7 +541,7 @@ Write a short note covering:
 - Deployment trigger
 - Manual approval or secret-handling approach
 
-Write your note here.
+Optional
 
 ---
 
