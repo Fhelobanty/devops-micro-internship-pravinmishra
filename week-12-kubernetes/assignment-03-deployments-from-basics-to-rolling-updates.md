@@ -32,7 +32,7 @@ Create and enter the dedicated Deployment lab directory.
 
 #### Screenshot 01 — Output of `pwd` showing the directory ending in `/k8s-labs/deployments`
 
-Add your screenshot here.
+![alt text](screenshots/As3T1ss1.png)
 
 ---
 
@@ -46,13 +46,13 @@ Create a two-replica NGINX Deployment and verify the automatically managed Repli
 
 #### Screenshot 02 — Completed basic `nginx-deployment.yaml` showing two replicas and the initial NGINX image
 
-Add your screenshot here.
+![alt text](screenshots/As3T2ss2.png)
 
 ---
 
 #### Screenshot 03 — Successful apply output and verification output showing the Deployment, its automatically created ReplicaSet, and two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![alt text](screenshots/As3T2ss3.png)
 
 ---
 
@@ -66,13 +66,13 @@ Configure RollingUpdate to maintain the desired available replica count during a
 
 #### Screenshot 04 — Updated YAML showing `RollingUpdate`, `maxSurge: 1`, and `maxUnavailable: 0`
 
-Add your screenshot here.
+![alt text](screenshots/As3T3ss4.png)
 
 ---
 
 #### Screenshot 05 — Successful apply output and Deployment details showing the configured rolling-update strategy
 
-Add your screenshot here.
+![alt text](screenshots/As3T3ss5.png)
 
 ---
 
@@ -86,25 +86,25 @@ Update NGINX to 1.23.1, observe the rollout, and return to the previous stable r
 
 #### Screenshot 06 — Image-update command and rollout status showing successful completion
 
-Add your screenshot here.
+![alt text](screenshots/As3T4ss6.png)
 
 ---
 
 #### Screenshot 07 — ReplicaSet output showing the previous and updated ReplicaSets, and Deployment details showing `nginx:1.23.1`
 
-Add your screenshot here.
+![alt text](screenshots/As3T4ss7.png)
 
 ---
 
 #### Screenshot 08 — Rollback command and rollout status showing successful completion
 
-Add your screenshot here.
+![alt text](screenshots/As3T4ss8.png)
 
 ---
 
 #### Screenshot 09 — Rollout history and Deployment details showing the restored `nginx:1.21.1` image
 
-Add your screenshot here.
+![alt text](screenshots/As3T4ss9.png)
 
 ---
 
@@ -118,13 +118,13 @@ Scale the workload to five replicas and return it to two.
 
 #### Screenshot 10 — Scale-up command and output showing five Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![alt text](screenshots/As3T5ss10.png)
 
 ---
 
 #### Screenshot 11 — Scale-down command and output showing the final two Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![alt text](screenshots/As3T5ss11.png)
 
 ---
 
@@ -154,7 +154,7 @@ Today, I deployed NGINX, configured rolling updates, updated the container image
 
 I also scaled my Deployment from two Pods to five and back to two!
 
-[PASTE YOUR GENERATED LEADERBOARD MESSAGE AND LINK HERE]
+[I'm building my DevOps skills on the DevOps Micro Internship — here's my progress! � https://dmi.pravinmishra.com/s/Fhelobanty.html?utm_source=dmi&utm_medium=share&utm_campaign=leaderboard-share-whatsapp]
 
 #DMIByPravinMishra #DevOps #Kubernetes
 
@@ -162,7 +162,7 @@ I also scaled my Deployment from two Pods to five and back to two!
 
 #### Screenshot 12 — Published WhatsApp Status showing your Kubernetes Deployment message and generated DMI leaderboard progress link
 
-Add your screenshot here.
+![alt text](screenshots/As3T6sswhatsapp.png)
 
 A draft or editing screen is not sufficient.
 
@@ -172,7 +172,7 @@ A draft or editing screen is not sufficient.
 
 Write a short note explaining how Deployments manage ReplicaSets, perform rolling updates and rollbacks, and scale Pods.
 
-Add your answer here.
+Deployments manage ReplicaSets to maintain the desired number of Pod replicas and ensure the application remains available. Rolling updates gradually replace old Pods with new ones when the container image changes, helping reduce downtime. If an update causes problems, a rollback restores the previous working version. Deployments also allow scaling by increasing or decreasing the number of replicas, making it easy to adjust the number of running Pods as needed.
 
 ---
 

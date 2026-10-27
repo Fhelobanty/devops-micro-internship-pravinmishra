@@ -142,7 +142,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 09 | Ansible | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aamicheal_devops-terraform-ansible-share-7508688328976871424-vgCY/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/deploying-a-mini-finance-website-on-azure-with-terraform-and-ansible-76a34ec360b1?postPublishedType=repub |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aamicheal_devops-azuredevops-cicd-ugcPost-7516730666454081536-XOqF/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/ai-assisted-azure-devops-pipeline-failure-triage-building-safer-devops-workflows-f63f020ebd33 |
 | 11 | Docker | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/aamicheal_devops-docker-containersecurity-ugcPost-7519439205597421569-OWY6/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7519439208852250624&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA | https://medium.com/@fhelo3030/from-docker-fundamentals-to-container-security-my-hands-on-devops-journey-dc04e0a5f496 |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 12 | Kubernetes | 🔄 In Progress | 🔄 In Progress | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
