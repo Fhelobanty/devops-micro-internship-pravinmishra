@@ -278,11 +278,11 @@ Scaling down reduces unnecessary resource consumption when application demand de
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+![alt text](screenshots/As4T6ss13linkedln.png)
 
 #### Linkedin Post Link
 
-Add your link here
+https://www.linkedin.com/posts/aamicheal_devops-kubernetes-docker-share-7520627355942326272-7XSj/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7520627357418688513&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA
 
 ---
 
