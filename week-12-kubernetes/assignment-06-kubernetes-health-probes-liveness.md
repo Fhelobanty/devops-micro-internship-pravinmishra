@@ -127,7 +127,7 @@ Kubernetes waits 10 seconds after the container starts before beginning liveness
 
 **3. What does `failureThreshold: 3` mean?**
 
-Kubernetes treats the container as unhealthy after three consecutive liveness probe failures and restarts it.Add your answer here.
+Kubernetes treats the container as unhealthy after three consecutive liveness probe failures and restarts it.
 
 **4. Does a successful liveness probe control whether a Pod receives traffic? Explain briefly.**
 

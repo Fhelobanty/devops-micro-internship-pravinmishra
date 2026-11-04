@@ -12,19 +12,20 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Atoyebi Micheal Ademola
 
-**Kubernetes Platform:** Add your platform here.
+**Kubernetes Platform:** Amazon Elastic Kubernetes Service (Amazon EKS) – AWS, us-east-2 (Ohio).
 
 **Namespace:** book-review
 
-**Frontend URL or IP:** Add the working endpoint here.
+**Frontend URL or IP:** http://a99f2983adbe94ea4a83b9bf9281512d-317492553.us-east-2.elb.amazonaws.com
 
-**Access Method:** Public LoadBalancer, Ingress, or documented local access.
+**Access Method:** Public LoadBalancer Service provisioned through AWS. The application is accessible through its external load balancer endpoint over HTTP.
 
-**GitHub Manifests or Helm Chart URL:** Add your repository link here.
+**GitHub Manifests or Helm Chart URL:** https://github.com/pravinmishraaws/book-review-app
 
-**Architecture Diagram:** Add your diagram or link here.
+**Architecture Diagram:**
+![alt text](screenshots/As10TDiagram.jpg)
 
 ---
 
@@ -38,7 +39,7 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+![alt text](screenshots/As10T1ss1.png)
 
 ---
 
@@ -46,7 +47,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+Not applicable — using YAML manifest.
 
 ---
 
@@ -60,7 +61,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+![alt text](screenshots/As10TDiagram.jpg)
 
 ---
 
@@ -74,13 +75,13 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+![alt text](screenshots/As10T3ss4.png)
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+![alt text](screenshots/As10T3ss5.png)
 
 ---
 
@@ -94,13 +95,13 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+![alt text](screenshots/As10T4ss6.png)
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+![alt text](screenshots/As10T4ss7.png)
 
 ---
 
@@ -114,7 +115,7 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+![alt text](screenshots/As10T5ss8.png)
 
 ---
 
@@ -122,7 +123,7 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+![alt text](screenshots/As10T5ss9.png)
 
 ---
 
@@ -136,13 +137,13 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+![alt text](screenshots/As10T6ss10.png)
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+![alt text](screenshots/As10T6ss11.png)
 
 ---
 
@@ -156,13 +157,14 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+![alt text](screenshots/As10T7ss12.png)
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+![alt text](screenshots/As10T7ss131.png)
+![alt text](screenshots/As10T7ss132.png)
 
 ---
 
@@ -176,31 +178,33 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+![alt text](screenshots/As10T8ss14.png)
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+![alt text](screenshots/As10T8ss15.png)
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+![alt text](screenshots/As10T8ss16.png)
+![alt text](screenshots/As10T8ss161.png)
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+![alt text](screenshots/As10T8ss17.png)
+![alt text](screenshots/As10T8ss171.png)
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+Not attempted.The Kubernetes Dashboard was not deployed because the assignment's core objectives were completed using the Kubernetes CLI (kubectl).
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +220,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+![alt text](screenshots/As10T9ss19.png)
 
 ---
 
@@ -230,11 +234,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+![alt text](screenshots/As10T10ss20Linkdln.jpg.png)
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+https://www.linkedin.com/posts/aamicheal_aws-amazoneks-kubernetes-share-7523354727519039488-p1s5/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADFvgDYBsnsyE66xAyq2HzH3Jfsf19WE6JA
 
 ---
 
@@ -244,31 +248,125 @@ Add your published LinkedIn post URL here.
 
 Describe the application components and user flows you successfully deployed and tested.
 
-Add your summary here.
+Successfully deployed the Book Review Application on Amazon Elastic Kubernetes Service (EKS) using a three-tier architecture.
+
+The application consists of:
+
+Frontend: Next.js and Nginx, deployed as a Kubernetes Deployment.
+
+Backend: Node.js and Express API, deployed separately and exposed internally through a ClusterIP Service.
+
+Database: MySQL 8.0, deployed using a StatefulSet with persistent storage backed by Amazon EBS.
+
+The frontend was exposed externally through a Kubernetes LoadBalancer Service, allowing users to access the application through an AWS-provisioned load balancer.
+
+The following were successfully verified:
+
+Frontend, backend and MySQL workloads were running.
+
+Frontend successfully retrieved book data through the backend API.
+
+Backend successfully connected to MySQL.
+
+Database contained the Books, Users and Reviews tables with sample records.
+
+Nginx successfully served application pages and forwarded API requests.
+
+Kubernetes health checks and network access restrictions were configured.
 
 ## Issues and Fixes
 
 Describe the main issues encountered, their causes, and how you resolved them.
 
-Add your summary here.
+Several technical challenges were encountered during deployment:
+
+Database connection failure: The backend initially attempted to connect to localhost instead of the MySQL service. This was resolved by configuring DB_HOST to use mysql-service and providing the correct database credentials.
+
+Persistent storage configuration: MySQL required the Amazon EBS CSI driver and a suitable StorageClass. The EBS CSI add-on was activated, and an 8Gi persistent volume claim was successfully bound.
+
+Network connectivity: Network access restrictions affected connectivity testing. AWS VPC CNI network policy functionality was enabled, and Kubernetes NetworkPolicies were configured to control access to the backend and database.
+
+Health probe configuration: The backend initially used TCP-based health checks. These were updated to HTTP readiness and liveness probes using the application's health endpoint.
+
+Kubernetes resource constraints: Available compute capacity limited additional worker-node provisioning. The deployment was completed using the existing worker-node capacity without requesting a quota increase.
 
 ## Tools and Sources Used
 
 List the documentation and tools that helped you complete the assignment.
 
-Add your tools and sources here.
+Amazon Web Services (AWS)
+
+Amazon EKS
+
+Amazon ECR
+
+Amazon EBS
+
+Kubernetes and kubectl
+
+Docker and Docker Desktop
+
+Node.js and Express
+
+Next.js and Nginx
+
+MySQL 8.0
+
+AWS CLI
+
+Ubuntu on WSL
+
+Visual Studio Code
+
+Git and GitHub
+
+Documentation and Sources:
+
+Book Review Application GitHub repository.
+
+Official AWS documentation for Amazon EKS, ECR and EBS.
+
+Official Kubernetes documentation covering Deployments, Services, StatefulSets, Persistent Volumes, NetworkPolicies and health probes.
 
 ## Optional Improvements
 
 Describe any optional improvements implemented, or write “Not attempted.”
 
-Add your summary here.
+Implemented additional production-oriented configurations, including:
+
+HTTP readiness and liveness probes for the backend.
+
+Kubernetes NetworkPolicies to restrict backend and database ingress.
+
+ConfigMaps and Secrets for application configuration and credentials.
+
+Persistent database storage using Amazon EBS.
+
+Kubernetes Dashboard: Not attempted. It was optional, and the application was managed and validated using kubectl.
 
 ## Cleanup or Reuse Plan
 
 State which resources were removed or why the environment is being retained.
 
-Add your cleanup status or reuse plan here.
+Temporary testing resources, including the network connectivity test Pod and temporary MySQL client Pods, were removed after use.
+
+The main AWS and Kubernetes resources have been retained to preserve the working deployment, project evidence and opportunity for further testing or improvements.
+
+The retained environment includes:
+
+Amazon EKS cluster and worker node.
+
+Frontend and backend Deployments.
+
+MySQL StatefulSet.
+
+Kubernetes Services and NetworkPolicies.
+
+Persistent EBS storage.
+
+Amazon ECR repositories.
+
+External LoadBalancer.
 
 ---
 
